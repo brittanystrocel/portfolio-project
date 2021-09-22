@@ -1,5 +1,30 @@
+:root {
+  --primary-color: green;
+  --secondary-color: honeydew;
+  --primary-font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
 h1 {
-  color: green;
-  background: honeydew;
-  font-family: "Roboto", sans-serif;
+  color: var(--primary-color);
+  font-size: 72px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 34px;
+  font-weight: 400;
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
 }
