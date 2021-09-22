@@ -8,28 +8,28 @@ body {
   font-family: var(--primary-font-family);
 }
 
-h3 {
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero h3 {
   font-size: 30px;
   font-weight: 400;
   margin: 0;
 }
 
-h1 {
+.hero h1 {
   color: var(--accent-color);
   font-size: 86px;
   font-weight: 600;
 }
 
-h2 {
+.hero h2 {
   font-size: 28px;
   font-weight: 400;
   opacity: 0.9;
-}
-
-.hero {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 160px 20px;
 }
 
 .btn-branding {
