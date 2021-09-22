@@ -1,5 +1,5 @@
 :root {
-  --primary-color: green;
+  --accent-color: green;
   --secondary-color: honeydew;
   --primary-font-family: "Poppins", sans-serif;
 }
@@ -11,20 +11,33 @@ body {
 h3 {
   font-size: 30px;
   font-weight: 400;
+  margin: 0;
 }
 
 h1 {
-  color: var(--primary-color);
-  font-size: 72px;
+  color: var(--accent-color);
+  font-size: 86px;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 34px;
+  font-size: 28px;
   font-weight: 400;
+  opacity: 0.9;
 }
 
 .hero {
   background: var(--secondary-color);
   text-align: center;
+  padding: 160px 20px;
+}
+
+.btn-branding {
+  background: var(--accent-color);
+  color: white;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  padding: 10px 20px;
 }
