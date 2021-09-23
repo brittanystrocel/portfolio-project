@@ -1,6 +1,5 @@
 :root {
-  --accent-color: green;
-  --secondary-color: honeydew;
+  --accent-color: #015758;
   --primary-font-family: "Poppins", sans-serif;
 }
 
@@ -8,8 +7,23 @@ body {
   font-family: var(--primary-font-family);
 }
 
+h2 {
+  font-size: 42px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+img {
+  height: 500px !important;
+  width: 500px !important;
+}
+
 .hero {
-  background: var(--secondary-color);
+  background: var(--accent-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -18,10 +32,11 @@ body {
   font-size: 30px;
   font-weight: 400;
   margin: 0;
+  color: white;
 }
 
 .hero h1 {
-  color: var(--accent-color);
+  color: white;
   font-size: 86px;
   font-weight: 600;
 }
@@ -29,15 +44,35 @@ body {
 .hero h2 {
   font-size: 28px;
   font-weight: 400;
+  color: white;
   opacity: 0.9;
 }
 
 .btn-branding {
-  background: var(--accent-color);
-  color: white;
+  background: white;
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
   border-radius: 6px;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 500;
+  line-height: 27px;
+  padding: 10px 20px;
+}
+
+.index-intro {
+  font-size: 32px;
+}
+
+.description {
+  opacity: 0.8;
+}
+
+.btn-outline {
+  color: white;
+  background: var(--accent-color);
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 500;
   line-height: 27px;
   padding: 10px 20px;
 }
