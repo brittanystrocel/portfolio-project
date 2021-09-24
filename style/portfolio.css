@@ -80,3 +80,22 @@ img {
 .project-info {
   padding: 120px 60px;
 }
+
+@media (max-width: 992px) {
+  .hero {
+    padding: 100px 20px;
+  }
+  .hero h3 {
+    font-size: 25px;
+  }
+  .hero h1 {
+    font-size: 70px;
+  }
+  .hero h2 {
+    font-size: 25px;
+  }
+  .project-info {
+    padding: 0;
+    text-align: center;
+  }
+}
