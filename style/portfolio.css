@@ -81,19 +81,19 @@ img {
   padding: 120px 60px;
 }
 
-.about-section {
+.content-container {
   padding: 120px 20px;
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 54px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 20px;
 }
 
-.about-section-content {
+.content {
   margin: 15px;
 }
 
@@ -119,7 +119,7 @@ img {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 100px 20px;
   }
