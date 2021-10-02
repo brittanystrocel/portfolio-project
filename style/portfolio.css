@@ -22,6 +22,10 @@ img {
   width: 500px !important;
 }
 
+.nav-item {
+  padding: 0 8px;
+}
+
 .hero {
   background: var(--accent-color);
   text-align: center;
