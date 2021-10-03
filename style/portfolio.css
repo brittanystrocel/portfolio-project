@@ -11,6 +11,11 @@ h2 {
   font-size: 42px;
 }
 
+h4 {
+  font-size: 40px;
+  color: white;
+}
+
 p {
   font-weight: 400;
   font-size: 14px;
@@ -106,7 +111,44 @@ img {
   height: 400px !important;
 }
 
+footer {
+  margin: 50px 0;
+}
+
+footer .contact-box {
+  background: var(--accent-color);
+  padding: 30px 100px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  color: white;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+footer .email-link:hover {
+  color: var(--accent-color);
+}
+
+footer .social-links a {
+  margin: 10px 20px;
+  color: var(--accent-color);
+  font-size: 30px;
+}
+
 @media (max-width: 992px) {
+  h4 {
+    font-size: 20px;
+  }
   .hero {
     padding: 100px 20px;
   }
@@ -126,5 +168,8 @@ img {
   .content-container {
     text-align: center;
     padding: 100px 20px;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
