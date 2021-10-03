@@ -172,4 +172,7 @@ footer .social-links a {
   footer .contact-box {
     padding: 30px;
   }
+  footer .btn-branding {
+    padding: 10px;
+  }
 }
