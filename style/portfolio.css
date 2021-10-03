@@ -22,11 +22,6 @@ p {
   line-height: 1.5;
 }
 
-img {
-  height: 500px !important;
-  width: 500px !important;
-}
-
 .nav-item {
   padding: 0 8px;
 }
